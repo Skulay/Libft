@@ -1,5 +1,7 @@
 # WIP
 
+Je démarre la **libft** en avance sur la rentrée, pour m’entraîner et préparer le tronc commun de 42 Paris.
+
 ---
 
 # Libft
