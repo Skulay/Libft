@@ -6,7 +6,7 @@
 /*   By: alehamad <alehamad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/13 10:15:43 by alehamad          #+#    #+#             */
-/*   Updated: 2025/09/15 08:20:46 by alehamad         ###   ########.fr       */
+/*   Updated: 2025/09/15 14:02:36 by alehamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
+# include <stdint.h>
 
 /* first part */
 int		ft_isalpha(int c);
@@ -29,6 +30,7 @@ int		ft_tolower(int c);
 int		strncmp(const char *s1, const char *s2, size_t n);
 int		ft_atoi(const char *nptr);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+void	*calloc(size_t nmemb, size_t size);
 
 
 /* second part */
