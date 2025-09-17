@@ -6,18 +6,13 @@
 /*   By: alehamad <alehamad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/15 08:17:45 by alehamad          #+#    #+#             */
-/*   Updated: 2025/09/15 08:18:56 by alehamad         ###   ########.fr       */
+/*   Updated: 2025/09/17 15:27:57 by alehamad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putstr_fd(char *s, int fd)
 {
-	int	i;
-
-	i = 0;
-	while (s[i])
-	{
-		write(fd, &s[i], 1);
-		i++;
-	}
+	if (!s)
+		return ;
+	write(fd, s, ft_strlen(s));
 }
